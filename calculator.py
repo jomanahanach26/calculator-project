@@ -17,3 +17,5 @@ elif operation == "/":
     else:
         result = number1 / number2
         print("Result:", result)
+else:
+    print("Invalid operation")
