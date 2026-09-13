@@ -12,5 +12,8 @@ elif operation == "*":
     result = number1 * number2
     print("Result:", result)
 elif operation == "/":
-    result = number1 / number2
-    print("Result:", result)
+    if number2 == 0:
+        print("Cannot divide by zero")
+    else:
+        result = number1 / number2
+        print("Result:", result)
